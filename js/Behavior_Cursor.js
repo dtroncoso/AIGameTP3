@@ -36,14 +36,14 @@ Behavior_Cursor.prototype.update=function(){
     if (this.cursors.left.isDown)
     {
         //  Move to the left
-        this.sprite.body.velocity.x = -200;
+        this.sprite.body.velocity.x = -100;
 
         this.sprite.animations.play('left');
     }
     else if (this.cursors.right.isDown)
     {
         //  Move to the right
-        this.sprite.body.velocity.x = 200;
+        this.sprite.body.velocity.x = 100;
 
         this.sprite.animations.play('right');
     }
@@ -57,14 +57,14 @@ Behavior_Cursor.prototype.update=function(){
     if (this.cursors.up.isDown)
     {
         //  Move to the left
-        this.sprite.body.velocity.y = -200;
+        this.sprite.body.velocity.y = -100;
 
         this.sprite.animations.play('left');
     }
     else if (this.cursors.down.isDown)
     {
         //  Move to the right
-        this.sprite.body.velocity.y = 200;
+        this.sprite.body.velocity.y = 100;
 
         this.sprite.animations.play('right');
     }
